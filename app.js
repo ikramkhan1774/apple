@@ -63,6 +63,9 @@ app.get('/get-user-by-id', (req, res)=>{
 
 });
 
+    // let a = require('./data')
+    // a.
+
 app.put('/update-user', (req, res)=>{
     let index = users.findIndex(user=>user.id == req.body.id);
     users[index] = req.body;
@@ -104,7 +107,7 @@ app.delete('/delete-user', (req, res)=>{
     console.log(req.query.abc)
 })
 
-app.post('/create-user',upload.array('dp', 10),  (req, res)=>{
+app.post('/create-user',  (req, res)=>{
     
     let userParaHua = users.find(function(user){
 
