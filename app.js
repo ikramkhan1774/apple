@@ -7,7 +7,7 @@
 
 let myExpress =  require('express');
 const multer  = require('multer');
-let mongodb = require('mongoose');
+let mongoose = require('mongoose');
 
 mongoose.connect('mongodb+srv://ikramniazi4050:ikram1234@cluster0.2s9ljh9.mongodb.net/meri-achi-db').then(function(come){console.log(come)}).catch(function(error){console.log(error)});
 
