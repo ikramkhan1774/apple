@@ -52,6 +52,12 @@ let users = [
         name:'farhan',
         password:'3232',
         city:'Faisalabad'
+    },
+    {
+        id:102,
+        name:'rameez',
+        password:'1234',
+        city:'Lahore'
     }
 ];
 
